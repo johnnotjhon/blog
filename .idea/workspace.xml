@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c30bade4-f485-4bc5-adc2-240f268b92f2" name="Default Changelist" comment="" />
+    <list default="true" id="c30bade4-f485-4bc5-adc2-240f268b92f2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/system/app_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/system/app_test.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,20 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="45">
+              <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/system/app_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="55" column="28" lean-forward="true" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+            <state relative-caret-position="1309">
+              <caret line="77" column="46" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="46" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -56,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/tests/unit/blog_test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
+              <caret column="29" selection-start-column="29" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -107,14 +110,14 @@
         <option value="$PROJECT_DIR$/tests/unit/blog_test.py" />
         <option value="$PROJECT_DIR$/blog.py" />
         <option value="$PROJECT_DIR$/tests/integration/blog_test.py" />
-        <option value="$PROJECT_DIR$/tests/system/app_test.py" />
         <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/tests/system/app_test.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1057" />
-    <option name="y" value="121" />
+    <option name="x" value="90" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -124,9 +127,34 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -140,8 +168,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for app_test.AppTest.test_print_posts">
-    <configuration name="Unittests for app_test.AppTest.test_ask_create_blog" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests in tests">
+    <configuration name="Unittests for app_test.AppTest.test_ask_create_post" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="blog" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -151,7 +179,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;app_test.AppTest.test_ask_create_blog&quot;" />
+      <option name="_new_target" value="&quot;app_test.AppTest.test_ask_create_post&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -169,7 +197,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for app_test.AppTest.test_print_blogs" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for app_test.AppTest.test_menu_call_print_blogs" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="blog" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -179,7 +207,21 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;app_test.AppTest.test_print_blogs&quot;" />
+      <option name="_new_target" value="&quot;app_test.AppTest.test_menu_call_print_blogs&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for app_test.AppTest.test_menu_calls_create_blog" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="blog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/system" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;app_test.AppTest.test_menu_calls_create_blog&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -197,35 +239,36 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in tests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in tests" type="tests" factoryName="Unittests" nameIsGenerated="true">
       <module name="blog" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_pattern" value="&quot;*_test.py&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python tests.Unittests in tests" />
-      <item itemvalue="Python tests.Unittests for app_test.AppTest.test_print_blogs" />
-      <item itemvalue="Python tests.Unittests for app_test.AppTest.test_ask_create_blog" />
-      <item itemvalue="Python tests.Unittests for app_test.AppTest.test_ask_read_blog" />
       <item itemvalue="Python tests.Unittests for app_test.AppTest.test_print_posts" />
+      <item itemvalue="Python tests.Unittests for app_test.AppTest.test_ask_create_post" />
+      <item itemvalue="Python tests.Unittests for app_test.AppTest.test_menu_calls_create_blog" />
+      <item itemvalue="Python tests.Unittests for app_test.AppTest.test_menu_call_print_blogs" />
+      <item itemvalue="Python tests.Unittests for app_test.AppTest.test_ask_read_blog" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for app_test.AppTest.test_print_posts" />
         <item itemvalue="Python tests.Unittests for app_test.AppTest.test_ask_read_blog" />
-        <item itemvalue="Python tests.Unittests in tests" />
-        <item itemvalue="Python tests.Unittests for app_test.AppTest.test_ask_create_blog" />
-        <item itemvalue="Python tests.Unittests for app_test.AppTest.test_print_blogs" />
+        <item itemvalue="Python tests.Unittests for app_test.AppTest.test_menu_call_print_blogs" />
+        <item itemvalue="Python tests.Unittests for app_test.AppTest.test_menu_calls_create_blog" />
+        <item itemvalue="Python tests.Unittests for app_test.AppTest.test_ask_create_post" />
+        <item itemvalue="Python tests.Unittests for app_test.AppTest.test_print_posts" />
       </list>
     </recent_temporary>
   </component>
@@ -243,46 +286,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_app_test_AppTest_test_menu_call_print_blogs - 2019.06.27 at 21h 59m 36s.xml">
+    <history-entry file="Unittests_for_app_test_AppTest_test_menu_call_print_blogs - 2019.06.28 at 21h 03m 00s.xml">
       <configuration name="Unittests for app_test.AppTest.test_menu_call_print_blogs" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_app_test_AppTest_test_menu_input_prompt - 2019.06.27 at 22h 02m 26s.xml">
-      <configuration name="Unittests for app_test.AppTest.test_menu_input_prompt" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_app_test_AppTest_test_menu_input_prompt - 2019.06.27 at 22h 02m 39s.xml">
-      <configuration name="Unittests for app_test.AppTest.test_menu_input_prompt" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_app_test_AppTest_test_menu_input_prompt - 2019.06.27 at 22h 02m 42s.xml">
-      <configuration name="Unittests for app_test.AppTest.test_menu_input_prompt" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_app_test_AppTest_test_menu_call_print_blogs - 2019.06.27 at 22h 03m 40s.xml">
+    <history-entry file="Unittests_for_app_test_AppTest_test_menu_call_print_blogs - 2019.06.28 at 21h 03m 36s.xml">
       <configuration name="Unittests for app_test.AppTest.test_menu_call_print_blogs" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_app_test_AppTest_test_print_blogs - 2019.06.27 at 22h 03m 42s.xml">
-      <configuration name="Unittests for app_test.AppTest.test_print_blogs" configurationId="tests" />
+    <history-entry file="Unittests_for_app_test_AppTest_test_menu_call_print_blogs - 2019.06.28 at 21h 03m 46s.xml">
+      <configuration name="Unittests for app_test.AppTest.test_menu_call_print_blogs" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_app_test_AppTest_test_ask_create_blog - 2019.06.27 at 22h 03m 44s.xml">
-      <configuration name="Unittests for app_test.AppTest.test_ask_create_blog" configurationId="tests" />
+    <history-entry file="Unittests_for_app_test_AppTest_test_menu_call_print_blogs - 2019.06.28 at 21h 04m 08s.xml">
+      <configuration name="Unittests for app_test.AppTest.test_menu_call_print_blogs" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_tests - 2019.06.27 at 22h 10m 17s.xml">
+    <history-entry file="Unittests_for_app_test_AppTest_test_menu_call_print_blogs - 2019.06.28 at 21h 06m 35s.xml">
+      <configuration name="Unittests for app_test.AppTest.test_menu_call_print_blogs" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_app_test_AppTest_test_menu_call_print_blogs - 2019.06.28 at 21h 06m 46s.xml">
+      <configuration name="Unittests for app_test.AppTest.test_menu_call_print_blogs" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_tests - 2019.06.28 at 21h 07m 10s.xml">
       <configuration name="Unittests in tests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_app_test_AppTest_test_ask_read_blog - 2019.06.27 at 22h 31m 56s.xml">
-      <configuration name="Unittests for app_test.AppTest.test_ask_read_blog" configurationId="tests" />
+    <history-entry file="Unittests_in_tests - 2019.06.28 at 21h 07m 52s.xml">
+      <configuration name="Unittests in tests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_app_test_AppTest_test_print_posts - 2019.06.27 at 22h 44m 23s.xml">
-      <configuration name="Unittests for app_test.AppTest.test_print_posts" configurationId="tests" />
+    <history-entry file="Unittests_in_tests - 2019.06.28 at 21h 12m 03s.xml">
+      <configuration name="Unittests in tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_app_test_AppTest_test_ask_read_blog - 2019.06.28 at 21h 29m 33s.xml">
+      <configuration name="Unittests for app_test.AppTest.test_ask_read_blog" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="180" y="104" width="1440" height="877" extended-state="0" />
+    <frame x="290" y="84" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13319239" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13319239" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31082803" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31082803" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -336,7 +380,7 @@
     <entry file="file://$PROJECT_DIR$/tests/unit/blog_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -371,20 +415,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/system/app_test.py">
+    <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="55" column="28" lean-forward="true" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
+    <entry file="file://$PROJECT_DIR$/tests/system/app_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="1309">
+          <caret line="77" column="46" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,12 +1,7 @@
 from blog import Blog
 
 MENU_PROMPT = 'Enter "c" to create a blog, "l" to list blogs, "r" to read one, "p" to create a post, "q" to quit.'
-POST_TEMPLATE = '''
-    --- {} ---
-    
-    {}
-    
-    '''
+POST_TEMPLATE = '\n\t--- Post title ---\n\nPost content\n'
 blogs = dict() # blog_name : Blog object
 
 
@@ -17,7 +12,7 @@ def menu():
     # Do something with that choice
     # Eventually exit
 
-    print_blogs()
+    # print_blogs()
     selection = input(MENU_PROMPT)
     while selection != 'q':
         if selection == 'c':
@@ -61,4 +56,5 @@ def create_post():
     post_title = input('Input post title to create: ')
     post_content = input('Input post content to create: ')
     blogs[blog_title].create_post(post_title, post_content)
+
 
